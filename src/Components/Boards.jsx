@@ -78,7 +78,7 @@ const Boards = () =>{
             </div>
             ) : (
                     <>
-                        <h4 className = "player-text">Player '{isXTurn ? "X" : "O"}' Turn</h4>
+                        <h4 className = "player-text">divyansh '{isXTurn ? "X" : "O"}' Turn</h4>
                         <div className="board-row">
                             <Square onClick = {()=>handleClick(0)} value={state[0]}/>
                             <Square onClick = {()=>handleClick(1)} value={state[1]} />
